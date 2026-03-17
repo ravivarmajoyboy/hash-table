@@ -1,11 +1,11 @@
-
+package week1;
     import java.util.*;
 
-    public class UsernameAvailabilityChecker {
+    public class UsernameSystem {
         private Map<String, Integer> userRegistry = new HashMap<>();
         private Map<String, Integer> attemptTracker = new HashMap<>();
 
-        public UsernameAvailabilityChecker() {
+        public UsernameSystem() {
             // Pre-populating with some "existing" users
             userRegistry.put("admin", 1);
             userRegistry.put("john_doe", 2);
@@ -69,4 +69,5 @@
             System.out.println("System closed.");
         }
     }
-}
+
+
